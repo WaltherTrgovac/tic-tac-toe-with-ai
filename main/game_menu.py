@@ -6,7 +6,26 @@ from bot_hard import BotHard
 from grid import Grid
 
 
-class GameMenu:
+class SingletonMeta(type):
+    """
+    A classic Singleton class that also raises an Exception if you try to create second instance of the same class
+    """
+    _instances = {}
+
+    def __call__(cls, *args, **kwargs):
+        """
+        Possible changes to the value of the `__init__` argument do not affect
+        the returned instance.
+        """
+        if len(cls._instances) == 1:
+            raise Exception("You already created an instance of the GameMenu class")
+        if cls not in cls._instances:
+            instance = super().__call__(*args, **kwargs)
+            cls._instances[cls] = instance
+        return cls._instances[cls]
+
+
+class GameMenu(metaclass=SingletonMeta):
     def __init__(self):
         self.turn = None
         self.game_loop = True
