@@ -31,7 +31,7 @@ A simple game, where player_1 is the user, and player_2 is a medium bot.
 
 We start the game by typing the command <code>start user medium</code>. After that we type the coordinates in range from (1, 1) to (3, 3), in order to make a move. Every syntax error will be handled so you always can only make a legal move.
 
-<code>
+```python
 start user medium           
 ---------                   
 |       |                   
@@ -81,7 +81,7 @@ Enter the coordinates: > 2 3
 | O   X |                   
 ---------                   
 X wins                      
-</code>
+```
 
 <h2>
 How does the hard bot work?
