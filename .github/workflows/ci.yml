@@ -1,0 +1,14 @@
+name: Python CI with Pytest
+
+on:
+  push:
+    branches: [ master ]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Run tests
+        run: |
+          pytest
