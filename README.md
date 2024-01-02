@@ -104,7 +104,7 @@ Testing
 </h2>
 
 <p>
-Coming soon
+Coming soon...
 </p>
 
 <h2>
