@@ -1,0 +1,17 @@
+name: Python CI with Pytest
+
+on:
+  push:
+    branches: [ master ]
+
+jobs:
+  test:
+    steps:
+      - name: Test with pytest
+      run: |
+        pip install pytest
+        pytest tests.py
+    
+
+
+
