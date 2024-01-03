@@ -88,7 +88,7 @@ How does the hard bot work?
 </h2>
 
 <p>
-Hard bot is implemented by using [minimax algorithm](https://en.wikipedia.org/wiki/Minimax). That way we make sure that the bot always plays optimally. I implemented the most easiest version of the algorithm, which causes the code to be longer than it has to be. 
+Hard bot is implemented by using [minimax algorithm](https://en.wikipedia.org/wiki/Minimax) . That way we make sure that the bot always plays optimally. I implemented the most easiest version of the algorithm, which causes the code to be longer than it has to be. 
 </p>
 
 <h2>
