@@ -92,6 +92,14 @@ Hard bot is implemented by using [minimax algorithm](https://en.wikipedia.org/wi
 </p>
 
 <h2>
+UML Class Diagram for main code
+</h2>
+
+<p align="center">
+    <img src=images/uml-class-diagram.png>
+</p>
+
+<h2>
 Design patterns
 </h2>
 
@@ -104,9 +112,16 @@ Testing
 </h2>
 
 <p>
-Coming soon...
+For every bot there are unit test written with Pytest, but not every test case is handled.
 </p>
 
+<h2>
+Continous integration
+</h2>
+
+<p>
+A simple pipeline has been implemented that runs on GitHub Actions and is used to run all tests every time someone pushes a commit on the main branch.
+</p>
 
 <h2>
 License
