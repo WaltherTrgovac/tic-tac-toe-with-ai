@@ -17,7 +17,7 @@ How to play
 <p>
 You just need raw python in order to run the script.
 
-You can executing the script by running python <code>.\main\game_menu.py from the root</code> directory of the repository.
+You can execute the script by running python <code>.\main\game_menu.py from the root</code> directory of the repository.
 
 After executing the script, you can start any game mode with the command start [player_1] [player_2], where you can choose between commands [user], [easy], [medium], [hard] for each player.
 </p>
